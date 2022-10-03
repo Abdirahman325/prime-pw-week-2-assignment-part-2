@@ -136,6 +136,9 @@ let mix = true;
 
 // FIX- colorOne should be set to 'red' and colorTwo should be set to blue, but the instructions set the both to the wrong color.
 // The mix should be colorOne + colorTwo = 'purple', but instead theyre changing the value of colorOne to = 'purple'
+// Should beif (mix === true) {
+// ColorOne + colorTwo = 'purple';
+}
 
 if (mix === true) {
   colorOne = 'purple';
@@ -150,6 +153,15 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX- We need to change it form an || (or) conditonal to an && (and) conditonal
+// It should look something like this 
+//if (temp > 39 && time >= 4) {
+  console.log('throw away the food!');
+}
+// Now we can console.log 'throw away the food!'
+
+
+
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -162,6 +174,12 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+
+//FIX the conditional was written out incorrectly it should look like this instead
+// (age >= 21 || minAge = 21) {
+  console.log('enter');
+}
 
 if(minAge <= age) {
   console.log('no entry');
