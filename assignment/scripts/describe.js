@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We created a varibale called name and set it Dane as a name.
+// Then we checked to see if it was exactly equal to Mary.
+// name isnt exactly equal Mary, so
+// we console.log 'How do you do?'.
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called secret which currently has no value, and we create
+// another variable called code and set it to 123. 
+// We then check to see if code *= 2 is greater than 250
+// Its not so we console.log 'super'
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create 3 variables isStudent and set it to true,  age set it 34 and finally zip set it to 55407. 
+// We then check to if the first if conditonal is true.
+// After analyzing we conclude its false we then move on to then next if conditonal and come to the conclusion that it is false as well.
+// We make our way down to the next conditonal and determine that it is indeed true so we console.log 'Welcome to Prime'
 
 //CODE
 /*
@@ -133,6 +133,9 @@ if (number >= 2) {
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
+
+// FIX- colorOne should be set to 'red' and colorTwo should be set to blue, but the instructions set the both to the wrong color.
+// The mix should be colorOne + colorTwo = 'purple', but instead theyre changing the value of colorOne to = 'purple'
 
 if (mix === true) {
   colorOne = 'purple';
